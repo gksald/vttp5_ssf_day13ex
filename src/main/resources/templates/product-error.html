@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Out of Stock</title>
+</head>
+<body>
+    <h1>Oops! Something went wrong.</h1>
+    <p th:text="${errorMessage}"></p>  <!-- Display the error message passed from the controller -->
+    <p><a href="/products">Go back to product list</a></p>
+</body>
+</html>
